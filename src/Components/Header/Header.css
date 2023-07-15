@@ -1,0 +1,99 @@
+.header{
+    background-color: #2c2c2c;
+}
+
+.myImage{
+    width: 40px;
+    border-radius: 20px;
+    height: 40px;
+    margin-top: 5px;
+}
+.logo{
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0;
+    margin-right: 10px;
+}
+
+/* ant design */
+.ant-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ant-input-wrapper{
+    margin-left: 10px;
+}
+.ant-menu-item:active{
+    color: white !important;
+}
+
+/* media query */
+@media (max-width:1200px) and (min-width:1024px) {
+    .ant-input-wrapper{
+        display: none;
+    }
+  .ant-menu-dark{
+    background: white !important;
+  }
+}
+@media (max-width:1024px) and (min-width:760px) {
+    .ant-btn-primary{
+        display: none;
+    }
+    .ant-input-wrapper{
+        display: none;
+    }
+}
+@media (max-width:760px) and (min-width:580px){
+    .ant-btn-primary{
+        display: none;
+    }
+    .ant-input-wrapper{
+        display: none;
+    }
+}
+@media (max-width:580px) {
+    .userInfo{
+        display: none;
+    }
+    .logoutBtn{
+        display: none !important;
+    }
+    .ant-input-wrapper{
+        display: none;
+    }
+}
+
+/* main content */
+.mainContent{
+ 
+    overflow-y: scroll !important;
+    height: 100vh !important;
+}
+.mainContent div ul {
+    background: white !important;
+    color: black !important;
+    border-right: 1px solid rgb(195, 195, 195) !important;
+}
+.mainContent div ul li:hover{
+    background-color:none !important;
+    color: #4378FF !important;
+}
+.sidebarScroll{
+    height: 100vh;
+    overflow-y: scroll;
+}
+.sidebarScroll::-webkit-scrollbar , .textArea::-webkit-scrollbar{
+    width: 0px;
+}
+.textArea{
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+
+
+/* sidebar */
+
+

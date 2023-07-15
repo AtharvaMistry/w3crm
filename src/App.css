@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+@media (min-width:720px) and (max-width:1000px){
+    .sideName{
+        display: none;
+    }
+    .calender{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+}
+@media (max-width:768px) and (min-width:576px){
+    .sideName{
+        display: none;
+    }
+    .calender, .doughNut{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .btn{
+        width: 90px;
+    }
+    .ant-menu-item{
+        padding-left: 13px !important;
+    }
+    /* task */
+
+    
+}
+
+@media (max-width:576px){
+    .calender, .doughNut{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    }
+    .btn{
+        width: 75px;
+    }
+    /* task */
+    .tastSummry{
+        border-left: none !important;
+        margin-bottom: 20px;
+    }
+    .breadCrumb{
+        display: none !important;
+    }
+
+    .sidabar{
+        display: flex !important;
+        flex-wrap: nowrap !important ;
+        overflow-x: scroll !important;
+        height: auto !important;
+    }
+    .mainContent{
+        width: 100% !important;
+        margin-top: 0 !important;
+    }
+    .breadCrumb1{
+        display: none !important;
+    }
+}

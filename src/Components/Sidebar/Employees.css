@@ -1,0 +1,70 @@
+.ant-breadcrumb-link{
+    display: flex !important ;
+    justify-content: center !important;
+    align-items: center !important;
+}
+.ant-table-content{
+    overflow-x: scroll;
+}
+
+
+/* task */
+.tableTask1{
+    overflow-x: scroll;
+}
+/* performance */
+.ant-rate{
+    border-right: none !important;
+}
+
+/* Project */
+.anticon-user{
+    color: lightcoral;
+    background: #e2c6c6;
+    border-radius: 34px;
+    padding: 10px;
+}
+.anticon-pie-chart{
+    color: rgb(63, 238, 63);
+    background: rgb(184, 219, 184);
+    border-radius: 34px;
+    padding: 10px;
+}
+.anticon-security-scan{
+    color: rgb(60, 171, 240);
+    background: rgb(171, 200, 218);
+    border-radius: 34px;
+    padding: 10px;
+}
+.anticon-user-switch{
+    color: lightseagreen;
+    background: rgb(153, 205, 202);
+    border-radius: 34px;
+    padding: 10px;
+}
+.number1{
+    color: lightcoral;
+}
+.number2{
+    color: rgb(63, 238, 63);
+}
+.number3{
+    color: rgb(60, 171, 240);
+}
+.number4{
+    color: lightseagreen;
+}
+.ant-breadcrumb-link{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.tableEmp::-webkit-scrollbar{
+    width: 0px !important;
+}
+
+
+.sideName, .anticon-desktop, .anticon-mail{
+    color: black;
+}
